@@ -11,7 +11,7 @@ let music = document.querySelector(".music"),
   btn = document.querySelector(".fence .p2")
 //--------------------------------------------------------------
 // canvas绘图 需要图片加载完成  全部代码 包裹在 图片加载里
-loadImg(['img/bug.png', 'img/new.png', 'img/ni.png', 'img/tuofa.png','img/fz.png','img/qian.png','img/niuniu.png','img/hong.png','img/jin.png']).then((imgArr) => {
+loadImg(['img/new.png', 'img/hong.png', 'img/jin.png', 'img/niuniu.png', 'img/tian.png', 'img/qian.png',]).then((imgArr) => {
   // --------------------------------------------------------------
 
   window.onload = function () {
